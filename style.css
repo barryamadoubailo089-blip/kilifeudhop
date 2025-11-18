@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.menue{
+    display: flex;
+    justify-content: space-around;
+    background-color: #dab252;
+}
+.menue ul{
+display: flex;
+}
+.menue ul li{
+    padding: 12px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+.menue ul li:hover{
+    background-color: black;
+}
+.bagniere{
+    background-image:url("image/bargniere1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.bagniere marquee p{
+    color: white;
+    font:size 2m;;
+    margin-top: 17%;
+}
+.bagniere marquee p span{
+    color: #dab251;
+    font-weight: bold;
+}
+.service{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.image-gauche{
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.service,h2{
+text-align: center;
+    margin: 23px;
+    font-size: 1.5rem;
+    font-weight: 15rem;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 53px;
+}
+.card{
+    width: 18rem;
+    background-color:#dab251 ;
+    border-radius: 12px;
+    padding-bottom: 0 auto;
+}
+.card img{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+.card p,h3{
+    text-align: center;
+    padding: 10px;
+}
+.card button{
+    margin: 20px;
+    margin-left: 60%;
+    padding: 3px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card button:hover{
+    background: rgb(237, 84, 84);
+}
